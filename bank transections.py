@@ -1,6 +1,7 @@
 import sys
 class banking:
-    bankname="BOI"
+    ''' State Bank Of India '''
+    bankname="SBI"
     def __init__(self,name,account,balance=0.0):
         self.name=name
         self.balance=balance
