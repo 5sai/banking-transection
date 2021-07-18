@@ -24,7 +24,7 @@ if len(l)>11:
 c=banking(name,account)
 while True:
     print("d=deposit\nw =withdraw\ne=exit")
-    k=input("choose your option")
+    k=input("choose your  corrct option")
     if k=="d" or k=="D":
         amt=float(input("enter the ammount:"))
         c.deposit(amt)
