@@ -19,7 +19,7 @@ name=input("enter your name:")
 account=int(input("enter your account number"))
 l=list(str(account))
 if len(l)>11:
-    print("invalid account number")
+    print("invalid account number please check again")
     sys.exit()
 c=banking(name,account)
 while True:
